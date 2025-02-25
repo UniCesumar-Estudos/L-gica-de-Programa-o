@@ -1,0 +1,24 @@
+//11) Ler 3 notas e apresentar a média das mesmas.
+
+Algoritmo "Exercício11daLista1"
+
+
+Var
+
+   n1,n2,n3,media: real
+
+Inicio
+
+   escreval ("Para somar a médiade três números, informe o primeiro valor: ")
+   leia (n1)
+   escreval ("Digite o segundo número: ")
+   leia (n2)
+   escreval ("Digite o terceiro número: ")
+   leia (n3)
+   
+   media <- (n1+n2+n3)/3
+   
+   escreval ("A média dos valores é: ", media)
+
+
+Fimalgoritmo
