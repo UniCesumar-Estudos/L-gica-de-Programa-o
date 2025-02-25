@@ -1,0 +1,19 @@
+18) Solicite ao usuário um número inteiro e apresente o RESTO da divisão por 2
+
+
+Algoritmo "Exercício18daLista1"
+
+Var
+   n1: inteiro
+   resto: real
+
+Inicio
+   escreval ("Digite um número interno para apresentarmos o valor dividido por dois: ")
+   leia (n1)
+   
+   resto <- n1/2
+   
+   escreval ("O valor dividido por dois é: ", resto)
+
+
+Fimalgoritmo
