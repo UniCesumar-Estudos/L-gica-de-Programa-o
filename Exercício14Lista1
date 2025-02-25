@@ -1,0 +1,29 @@
+//14) Sendo dado dois números pelo usuário, apresente a décima
+//parte da subtração de um pelo outro, utilizando uma
+//terceira variável.
+
+
+Algoritmo "Exercício14daLista1"
+
+
+
+Var
+
+   n1,n2,resultado: real
+
+Inicio
+
+   escreval ("Insira o primeiro número: ")
+   leia (n1)
+   escreval ("Insira outro número: ")
+   leia (n2)
+   
+   resultado <- (n1-n2)/10
+   
+   escreval ("O resultado da subtração dos números dividido por dez é: ", resultado)
+   
+
+
+
+
+Fimalgoritmo
