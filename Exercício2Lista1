@@ -1,0 +1,20 @@
+//Ler duas variáveis numérica, e apresentar a soma das mesmas,
+//acumulando ou não em outra variável.
+
+Algoritmo "Exercício2daLista1.alg"
+
+Var
+
+  n1,n2,soma: Real
+
+Inicio
+
+  escreval ("Digite um número: ")
+  leia (n1)
+  escreval ("Digite outro número aqui: ")
+  leia (n2)
+  soma <- n1+n2
+  
+  escreval ("A soma dos números é: ",soma)
+
+Fimalgoritmo
