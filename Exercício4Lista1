@@ -1,0 +1,21 @@
+//4) CAC = 3.1416 * R².
+//Lembre-se que R² é o mesmo que (R * R). Área de um Círculo
+
+Algoritmo "Exercício4daLista1"
+
+Var
+
+   r,raio, area: real
+
+Inicio
+
+   Escreval ("Digite o valor de raio")
+   Leia (r)
+
+   raio <- r*r
+   area <- 3.1416*raio
+
+
+   Escreval ("A área do cículo é: ", area)
+
+Fimalgoritmo
