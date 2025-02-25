@@ -1,0 +1,20 @@
+//13) Informado 3 números, apresente a soma do primeiro com o terceiro,
+//    multiplicando pelo segundo.
+
+Algoritmo "Exercício13daLista1"
+
+Var
+   n1,n2,n3, resultado: real
+
+Inicio
+
+   escreval ("Por gentileza, digite três números para realizarmos a soma o primeiro com o terceiro e multiplicarmos o resultado com o segundo: ")
+   leia (n2)
+   leia (n2)
+   leia (n3)
+   
+   resultado <- (n1+n3)*n2
+   
+   escreval ("A soma do primeiro com o terceiro número, multiplicado pelo segundo é: ", resultado)
+   
+Fimalgoritmo
