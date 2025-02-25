@@ -1,0 +1,17 @@
+//3) AREA = (BASE x ALTURA) / 2. (Área de um Triângulo)
+
+Algoritmo "Exercício3daLista1"
+
+Var
+   base, altura, area: real
+
+Inicio
+   escreval ("Para calcularmos a área de um triângulo, digite a base: ")
+   leia (base)
+   escreval ("Agora, escreva o número da altura: ")
+   leia (altura)
+   area <- (base*altura)/2
+   escreval ("A área desse triângulo é: ",area)
+
+
+Fimalgoritmo
