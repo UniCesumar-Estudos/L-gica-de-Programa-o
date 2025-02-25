@@ -1,0 +1,20 @@
+16) Construa um algoritmo que leia e apresente a soma de 5 números fornecidos pelo usuário.
+
+Algoritmo "Exercício16daLista1"
+
+Var
+    n1,n2,n3,n4,n5: real
+
+
+Inicio
+    escreval ("Usuário, digite abaixo cinco números para realizarmos a soma: ")
+    leia (n1)
+    leia (n2)
+    leia (n3)
+    leia (n4)
+    leia (n5)
+    
+    
+    escreval ("A soma dos valores apresentados é: ", n1+n2+n3+n4+n5)
+    
+Fimalgoritmo
