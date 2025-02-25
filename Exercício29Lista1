@@ -1,0 +1,28 @@
+//29) Solicite dois valores e apresente o resto da divisão
+//da soma dos mesmos por 3
+
+
+Algoritmo "Exercício29daLista1"
+
+Var
+
+    n1,n2:real
+
+Inicio
+
+   escreval("Digite o primeiro número: ")
+   leia (n1)
+   escreval("Digite o segundo número: ")
+   leia (n2)
+
+
+
+   escreval ("O resultado da soma total dividido por três: ", (n1+n2)/3)
+
+
+
+
+
+
+
+Fimalgoritmo
