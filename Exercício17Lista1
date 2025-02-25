@@ -1,0 +1,24 @@
+//17) Solicite o nome e idade de 4
+//pessoas e apresente a média no final
+
+Algoritmo "Exercício17daLista1"
+
+Var
+
+  i1,i2,i3,i4: inteiro
+  media: real
+
+Inicio
+
+  escreval ("digite a idade de quatro pessoas para identificarmos a média: ")
+  leia (i1)
+  leia (i2)
+  leia (i3)
+  leia (i4)
+  
+  media <- (i1+i2+i3+i4)/4
+  
+  escreval ("A média das idades inseridas acima é: ", media)
+  
+  
+Fimalgoritmo
