@@ -1,0 +1,15 @@
+//21) Construa um algoritmo que gere randomicamente 4 valores
+// e apresente-os ao usuário, bem como a soma.
+
+
+Algoritmo "Exercício21daLista1"
+
+Var
+    valor:inteiro
+
+
+Inicio
+
+     escreval ("Números aleatórios: ", randi(100))
+
+Fimalgoritmo
