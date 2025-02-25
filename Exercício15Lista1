@@ -1,0 +1,21 @@
+//15) Baseado no exercício anterior, faça o mesmo processo sem
+//fazer uso de uma terceira variável.
+
+Algoritmo "Exercício15daLista1"
+
+Var
+
+   n1,n2:real
+   
+Inicio
+
+   escreval ("Digite o primeiro número: ")
+   leia (n1)
+   escreval ("Digite o segundo número")
+   leia (n2)
+   
+   escreval("O resultado da soma dos números informados é: ", n1+n2)
+
+
+
+Fimalgoritmo
