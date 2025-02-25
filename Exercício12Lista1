@@ -1,0 +1,22 @@
+ //12) Conhecido 3 números inteiros, apresente o
+//resultado da multiplicação dos mesmos
+
+Algoritmo "Exercício12daLista1"
+
+Var
+    n1,n2,n3,resultado: inteiro
+
+Inicio
+
+    escreval ("Para realizarmos a multiplicação, informe 3 números")
+    leia (n1)
+    leia (n2)
+    leia (n3)
+    
+    resultado <- n1*n2*n3
+    
+    escreval ("O resultado da multiplicação dos três números é: ", resultado)
+
+
+
+Fimalgoritmo
