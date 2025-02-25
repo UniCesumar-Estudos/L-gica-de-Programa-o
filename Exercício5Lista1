@@ -1,0 +1,20 @@
+//5) CPC = 3.1416 * D, sendo que D = R + R. (Perímetro de Círculo)
+
+
+
+Algoritmo "Exercício5daLista1"
+
+Var
+
+  r,d,perimetro: real
+
+Inicio
+   escreval ("Informe o raio")
+   leia (r)
+   
+   d <- r+r
+   perimetro <- 3.1416*d
+   
+   escreval ("O perímetro do círculo é: ", perimetro)
+
+Fimalgoritmo
