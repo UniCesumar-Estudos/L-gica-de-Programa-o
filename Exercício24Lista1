@@ -1,0 +1,25 @@
+//24) Construa um algoritmo que solicite dois valores e apresente
+//a soma de ambos com acréscimo de 18%
+
+
+Algoritmo "semnome"
+
+
+Var
+
+    v1,v2,resultado: real
+
+Inicio
+
+    escreval ("Digite o primeiro número: ")
+    leia (v1)
+    escreval ("Digite o segundo número: ")
+    leia (v2)
+
+    resultado <- (v1+v2)*1.18
+    
+    escreval ("A soma de ambos os números com acréscimo de 18% é: ", resultado)
+
+
+
+Fimalgoritmo
