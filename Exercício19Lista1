@@ -1,0 +1,30 @@
+//  19) Solicite o nome, idade, profissão e o salário de uma pessoa.
+//Posteriormente, apresente todos os dados e o valor que será
+// descontado de seu salário para despesas de plano de saúde,
+//considerando que seja descontado 1,3% do salário.
+
+Algoritmo "Exercício19daLista1"
+
+Var
+
+    nome, idade, profissao: caractere
+    sal, salario: real
+
+Inicio
+
+    escreval ("Olá, colaborador(a)! Solicitamos que informe o seu nome completo: ")
+    leia (nome)
+    escreval ("agora digite a sua idade")
+    leia (idade)
+    escreval ("Informe a sua profissão")
+    leia (profissao)
+    escreval ("Digite seu salario atual para verificar o desconto")
+    leia (sal)
+    
+    salario <- sal*0.987
+    
+    
+    escreval ("O salário com 1,3% de desconto é: ",salario)
+
+
+Fimalgoritmo
